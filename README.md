@@ -1,6 +1,8 @@
 # nuxt-router-test1
 
-> My super Nuxt.js project
+このプロジェクトは、Qiitaに寄稿した「[初心に戻ってNuxt.js＋Vuetify ルーティングを学び直す](https://qiita.com/idani/items/ac793fd77b0ee3b3d080)」のサンプルプログラムになります。
+
+
 
 ## Build Setup
 
