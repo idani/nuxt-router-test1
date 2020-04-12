@@ -12,7 +12,11 @@
         <tr v-for="user in users" :key="user.id">
           <td class="text-right">{{ user.id }}</td>
           <td>{{ user.name }}</td>
-          <td><v-btn :to="`/user/${user.id}`">詳細</v-btn></td>
+          <td>
+            <v-btn color="primary" small :to="`/user/${user.id}`"
+              ><v-icon left>mdi-account-details</v-icon>詳細</v-btn
+            >
+          </td>
         </tr>
       </tbody>
     </template>
